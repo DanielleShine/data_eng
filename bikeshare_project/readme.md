@@ -1,7 +1,7 @@
 # Project: Explore US Bikeshare Data
 
 
-## Code Quality
+### Code Quality
 
 | Criteria                           | Submission Requirements                                                                                                                |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
@@ -14,16 +14,15 @@
 | **Use of Good Coding Practices**   | Docstrings, comments, and variable names enable the readability of the code.                                                            |
 |                                    | *Tips: Please refer to the Python’s documentation PEP 257 -- Docstring Conventions. Example of docstring conventions: <br> `def function(a, b):` <br> `"""Do X and return a list."""`* |
 
-## Script and Questions
+### Script and Questions
 
 | Criteria                               | Submission Requirements                                                                                                                                 |
 |----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Solicit and handle raw user input**  | Raw input is solicited and handled correctly to guide the interactive question-answering experience; no errors are thrown when unexpected input is entered. <br><br> User inputs should be made case insensitive, which means the input should accept the string of "Chicago" and its case variants, such as "chicago", "CHICAGO", or "cHicAgo".<br><br> You should also implement error handlings so your program does not throw any errors due to invalid inputs. For example, if the user enters "Los Angeles" for the city, the error handling should reject the user input and avoid breaking the codes. |
-| **Use descriptive statistics to answer questions about the data. Raw data is displayed upon request by the user.** | Descriptive statistics are correctly computed and used to answer the questions posed about the data.<br><br>Raw data is displayed upon request by the user in the following manner:<br><br>- Your script should prompt the user if they want to see 5 lines of raw data.<br>- Display that data if the answer is 'yes'.<br>- Continue iterating these prompts and displaying the next 5 lines of raw data at each iteration.<br>- Stop the program when the user says 'no' or there is no more raw data to display.                                                                      |
-|                                        | *Tips: you can implement the while loop and track the row index in order to display the continuous raw data.*                                            |
+| **Use descriptive statistics to answer questions about the data. Raw data is displayed upon request by the user.** | Descriptive statistics are correctly computed and used to answer the questions posed about the data.<br><br>Raw data is displayed upon request by the user in the following manner:<br>- Your script should prompt the user if they want to see 5 lines of raw data.<br>- Display that data if the answer is 'yes'.<br>- Continue iterating these prompts and displaying the next 5 lines of raw data at each iteration.<br>- Stop the program when the user says 'no' or there is no more raw data to display.<br><br>*Tips: you can implement the while loop and track the row index in order to display the continuous raw data.*                                            |
 
 
-## Suggestions to Make Your Project Stand Out
+### Suggestions to Make Your Project Stand Out
 Change the structure of bikeshare.py to make the code more efficient or in better style.
 Ask and answer additional questions about the data beyond the questions already provided.
 Make the interactive experience wow-worthy! Add images, make it into a web app, etc. (If you do create a web app, make sure to include clear directions how to execute it.) Make it your own!
