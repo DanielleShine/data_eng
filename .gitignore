@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /env
 /venv
 /.idea
@@ -126,3 +127,9 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+=======
+.DS_Store
+/env
+/coursera
+/venv
+>>>>>>> fd1a9da9ca3dd5a3c805e5ee698147285c6a6538
