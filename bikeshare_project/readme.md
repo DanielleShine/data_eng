@@ -5,7 +5,9 @@
 
 | Criteria          | Submission Requirements            |
 |-------------------|------------------------------------|
-| Start Time        | The start time of the trip         |
+| Functionality of code       | All code cells can be run without error.
+
+Tips: Implement safeguards against invalid user inputs that can potentially break the codes. Please refer to the “Solicit and handle raw user input” rubric item for further details.         |
 | End Time          | The end time of the trip           |
 | Trip Duration     | The duration of the trip in seconds|
 | Start Station     | The starting station of the trip   |
