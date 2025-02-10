@@ -94,6 +94,8 @@ def display_data(df):
         else:
             print("❌ Invalid input. Please enter 'yes' or 'no'.")
 
+
+
 # Run the script
 city, month, day = get_filters()
 df = load_data(city, month, day)
